@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\LoginAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.csproj|c:\\projetos\\loginapi\\login\\model\\dto\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.csproj|solutionrelative:login\\model\\dto\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignUpDTO.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login\\Model\\Dto\\SignUpDTO.cs",
+              "RelativeDocumentMoniker": "Login\\Model\\Dto\\SignUpDTO.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login\\Model\\Dto\\SignUpDTO.cs",
+              "RelativeToolTip": "Login\\Model\\Dto\\SignUpDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T15:12:52.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

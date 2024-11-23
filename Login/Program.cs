@@ -7,10 +7,12 @@ using Login.Repository;
 using Login.Service;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContextPool<MySqlContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+var connectionString = builder.Configuration.GetConnectionString("ConnectionDB");
+builder.Services.AddDbContextPool<MySqlContext>(options =>
+    options.UseSqlServer(connectionString));
 
 
 builder.Services.AddControllers();

@@ -1,37 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\Login\\Login\\Login.csproj": {}
+    "C:\\Projetos\\LoginAPI\\Login\\Login.csproj": {}
   },
   "projects": {
-    "C:\\Code\\Login\\Login\\Login.csproj": {
+    "C:\\Projetos\\LoginAPI\\Login\\Login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\Login\\Login\\Login.csproj",
+        "projectUniqueName": "C:\\Projetos\\LoginAPI\\Login\\Login.csproj",
         "projectName": "Login",
-        "projectPath": "C:\\Code\\Login\\Login\\Login.csproj",
-        "packagesPath": "C:\\Users\\rafael.gomes\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\Login\\Login\\obj\\",
+        "projectPath": "C:\\Projetos\\LoginAPI\\Login\\Login.csproj",
+        "packagesPath": "C:\\Users\\rafao\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\LoginAPI\\Login\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafael.gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-          "\\\\aecstrgisilon1\\Cronos-AeC_Sistemas\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -39,15 +38,21 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "EntityFramework": {
               "target": "Package",
-              "version": "[6.4.4, )"
+              "version": "[6.5.1, )"
             },
             "Lombok.NET": {
               "target": "Package",
@@ -67,15 +72,15 @@
               "target": "Package",
               "version": "[6.0.4, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.4, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[6.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -105,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

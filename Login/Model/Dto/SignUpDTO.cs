@@ -16,8 +16,5 @@ namespace Login.Model.Dto
 
         [Required(ErrorMessage = "Password is required")]
         public string PasswordConfirm { get; set; }
-
-        [Required(ErrorMessage = "Salário é necessario")]
-        public string Funcao { get; set; }
     }
 }
