@@ -1,12 +1,117 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projetos\\Financas\\LoginAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D420A511-F06B-4C17-AB15-EE1FC8CFE149}|Login.Application\\Login.Application.csproj|c:\\projetos\\financas\\loginapi\\login.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D420A511-F06B-4C17-AB15-EE1FC8CFE149}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|c:\\projetos\\financas\\loginapi\\login.domain\\interfaces\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\interfaces\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|c:\\projetos\\financas\\loginapi\\login.repository\\addrepositorysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|solutionrelative:login.repository\\addrepositorysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|c:\\projetos\\financas\\loginapi\\login\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|solutionrelative:login\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|c:\\projetos\\financas\\loginapi\\login.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|solutionrelative:login.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|c:\\projetos\\financas\\loginapi\\login.repository\\context\\postgrescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|solutionrelative:login.repository\\context\\postgrescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login.Application\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Login.Application\\Service\\UserService.cs",
+              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login.Application\\Service\\UserService.cs",
+              "RelativeToolTip": "Login.Application\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:23:48.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login.Domain\\Interfaces\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\Interfaces\\Service\\IUserService.cs",
+              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login.Domain\\Interfaces\\Service\\IUserService.cs",
+              "RelativeToolTip": "Login.Domain\\Interfaces\\Service\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:21:57.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login\\appsettings.json",
+              "RelativeDocumentMoniker": "Login\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login\\appsettings.json",
+              "RelativeToolTip": "Login\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T01:20:54.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login.Repository\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Login.Repository\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login.Repository\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Login.Repository\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:20:28.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostgresContext.cs",
+              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login.Repository\\Context\\PostgresContext.cs",
+              "RelativeDocumentMoniker": "Login.Repository\\Context\\PostgresContext.cs",
+              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login.Repository\\Context\\PostgresContext.cs",
+              "RelativeToolTip": "Login.Repository\\Context\\PostgresContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:19:15.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddRepositorySetup.cs",
+              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login.Repository\\AddRepositorySetup.cs",
+              "RelativeDocumentMoniker": "Login.Repository\\AddRepositorySetup.cs",
+              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login.Repository\\AddRepositorySetup.cs",
+              "RelativeToolTip": "Login.Repository\\AddRepositorySetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:18:18.124Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
