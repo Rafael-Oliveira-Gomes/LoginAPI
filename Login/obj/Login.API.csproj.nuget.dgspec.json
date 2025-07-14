@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Financas\\LoginAPI\\Login\\Login.csproj": {}
+    "C:\\Projetos\\Financas\\LoginAPI\\Login\\Login.API.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Financas\\LoginAPI\\Login\\Login.csproj": {
+    "C:\\Projetos\\Financas\\LoginAPI\\Login\\Login.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Login.csproj",
-        "projectName": "Login",
-        "projectPath": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Login.csproj",
+        "projectUniqueName": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Login.API.csproj",
+        "projectName": "Login.API",
+        "projectPath": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Login.API.csproj",
         "packagesPath": "C:\\Users\\rafao\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\Financas\\LoginAPI\\Login\\obj\\",
         "projectStyle": "PackageReference",
