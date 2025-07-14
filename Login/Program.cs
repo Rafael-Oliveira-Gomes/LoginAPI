@@ -1,59 +1,49 @@
-using Login.Context;
-using Login.Interface.Repository;
-using Login.Interface.Service;
-using Login.Ioc;
-using Login.Model;
+using Login.API.Extensions.SwaggerConfigurations;
+using Login.Application;
 using Login.Repository;
-using Login.Service;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 
-var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("ConnectionDB");
-builder.Services.AddDbContextPool<MySqlContext>(options =>
-    options.UseSqlServer(connectionString));
-
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-// Add IHttpContextAccessor to the Pontoiner
-builder.Services.AddHttpContextAccessor();
-
-// Register IoC for services
-builder.Services.ConfigRepositoryIoc();
-builder.Services.AddScoped<IAuthService, AuthService>();
-
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-    .AddEntityFrameworkStores<MySqlContext>()
-    .AddDefaultTokenProviders();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+/// <summary>
+/// Classe principal do aplicativo Cliente API.
+/// </summary>
+public class Program
 {
-    app.UseDeveloperExceptionPage();
-    app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Login v1"));
+    /// <summary>
+    /// Ponto de entrada principal do aplicativo.
+    /// </summary>
+    /// <param name="args">Argumentos de linha de comando.</param>
+    public static async Task Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
+
+        // Configuração de serviços
+        builder.Services
+            .AddSwaggerConfig(builder.Configuration)
+            .AddControllers();
+
+        //builder.Services.AddCustomCors();
+
+        builder.Services.AddRepository(builder.Configuration);
+        builder.Services.AddIdentity();
+        builder.Services.AddService(builder.Configuration);
+
+        var app = builder.Build();
+
+        app.UsePathBase("/login-api");
+
+        //app.UseCustomCors();
+
+        app.UseRouting();
+
+        // Swagger
+        app.UseSwagger();
+        app.UseSwaggerUI(options =>
+        {
+            options.SwaggerEndpoint("/login-api/swagger/v1/swagger.json", "Login API V1");
+            options.RoutePrefix = string.Empty;
+        });
+
+        app.MapControllers();
+
+        await app.RunAsync();
+    }
 }
-
-app.UseHttpsRedirection();
-app.UseRouting();
-app.UseCors(p => {
-    p.AllowAnyMethod();
-    p.AllowAnyHeader();
-    p.AllowAnyOrigin();
-});
-app.UseAuthentication();
-app.UseAuthorization();
-
-app.UseEndpoints(endpoints => {
-    endpoints.MapControllers();
-});
-
-app.Run();
-

@@ -16,6 +16,4 @@ public class SignUpDTO
 
     [Required(ErrorMessage = "Password is required")]
     public string PasswordConfirm { get; set; }
-
-    [Required(ErrorMessage = "Salário é necessario")]
 }

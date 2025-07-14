@@ -1,21 +1,34 @@
-﻿using System.Security.Claims;
+﻿using Login.Domain.DTOs;
+using Login.Domain.Entities;
+using Login.Domain.Interfaces.Repositories;
+using Login.Domain.Interfaces.Service;
+using Login.Repository.Repositories;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 
 namespace Login.Application.Service;
 
-public class UserService : IUserService 
+public class UserService : IUserService
 {
-    private readonly UserRepository _userRepository;
-
+    private readonly IUserRepository _userRepository;
     private readonly IConfiguration _configuration;
     private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly SignInManager<ApplicationUser> _signInManager;
 
-    public AuthService(UserRepository userRepository, IConfiguration configuration, SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager, IHttpContextAccessor httpContextAccessor)
+    public UserService(
+        IUserRepository userRepository,
+        IConfiguration configuration,
+        SignInManager<ApplicationUser> signInManager,
+        UserManager<ApplicationUser> userManager,
+        IHttpContextAccessor httpContextAccessor)
     {
         _userRepository = userRepository;
-
         _configuration = configuration;
         _httpContextAccessor = httpContextAccessor;
         _userManager = userManager;
@@ -134,5 +147,4 @@ public class UserService : IUserService
 
         return user;
     }
-}
 }
