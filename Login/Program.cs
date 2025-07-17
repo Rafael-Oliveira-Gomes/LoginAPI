@@ -1,6 +1,7 @@
 using Login.API.Extensions.SwaggerConfigurations;
 using Login.Application;
 using Login.Repository;
+using Login.Exceptions;
 
 /// <summary>
 /// Classe principal do aplicativo Cliente API.
@@ -26,6 +27,9 @@ public class Program
         builder.Services.AddIdentity();
         builder.Services.AddService(builder.Configuration);
 
+        // Adiciona configuração JWT centralizada
+        builder.Services.AddJwtAuthentication(builder.Configuration);
+
         var app = builder.Build();
 
         app.UsePathBase("/login-api");
@@ -41,6 +45,10 @@ public class Program
             options.SwaggerEndpoint("/login-api/swagger/v1/swagger.json", "Login API V1");
             options.RoutePrefix = string.Empty;
         });
+
+        // Adiciona autenticação e autorização JWT
+        app.UseAuthentication();
+        app.UseAuthorization();
 
         app.MapControllers();
 
