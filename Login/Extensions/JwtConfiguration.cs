@@ -3,7 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 
-namespace Login.Exceptions
+namespace Login.API.Extensions
 {
     /// <summary>
     /// Configura toda a autenticação e validação JWT, incluindo integração com Swagger.

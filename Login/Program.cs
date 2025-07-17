@@ -1,7 +1,7 @@
 using Login.API.Extensions.SwaggerConfigurations;
 using Login.Application;
 using Login.Repository;
-using Login.Exceptions;
+using Login.API.Extensions;
 
 /// <summary>
 /// Classe principal do aplicativo Cliente API.
@@ -21,7 +21,7 @@ public class Program
             .AddSwaggerConfig(builder.Configuration)
             .AddControllers();
 
-        //builder.Services.AddCustomCors();
+        builder.Services.AddCustomCors();
 
         builder.Services.AddRepository(builder.Configuration);
         builder.Services.AddIdentity();
@@ -34,7 +34,7 @@ public class Program
 
         app.UsePathBase("/login-api");
 
-        //app.UseCustomCors();
+        app.UseCustomCors();
 
         app.UseRouting();
 
@@ -42,7 +42,7 @@ public class Program
         app.UseSwagger();
         app.UseSwaggerUI(options =>
         {
-            options.SwaggerEndpoint("/login-api/swagger/v1/swagger.json", "Login API V1");
+            options.SwaggerEndpoint("/login/swagger/v1/swagger.json", "Login API V1");
             options.RoutePrefix = string.Empty;
         });
 

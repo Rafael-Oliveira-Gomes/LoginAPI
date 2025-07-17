@@ -34,16 +34,9 @@ public class AuthController : ControllerBase
     [HttpPost("sign-up")]
     public async Task<ActionResult> SignUp([FromBody] SignUpDTO signUpDTO)
     {
-        try
-        {
-            bool ret = await _authService.SignUp(signUpDTO);
+        bool ret = await _authService.SignUp(signUpDTO);
 
-            return Ok(ret);
-        }
-        catch (Exception ex)
-        {
-            return BadRequest(ex.Message);
-        }
+        return Ok(ret);
     }
 
     /// <summary>
@@ -55,16 +48,9 @@ public class AuthController : ControllerBase
     [HttpPost("sign-in")]
     public async Task<ActionResult> SignIn([FromBody] SignInDTO signInDTO)
     {
-        try
-        {
-            SsoDTO ssoDTO = await _authService.SignIn(signInDTO);
+        SsoDTO ssoDTO = await _authService.SignIn(signInDTO);
 
-            return Ok(ssoDTO);
-        }
-        catch (Exception ex)
-        {
-            return BadRequest(ex.Message);
-        }
+        return Ok(ssoDTO);
     }
 
     /// <summary>
@@ -74,15 +60,8 @@ public class AuthController : ControllerBase
     [HttpGet("get-current-user")]
     public async Task<ActionResult> GetCurrentUser()
     {
-        try
-        {
-            ApplicationUser currentUser = await _authService.GetCurrentUser();
+        ApplicationUser currentUser = await _authService.GetCurrentUser();
 
-            return Ok(currentUser);
-        }
-        catch (Exception ex)
-        {
-            return BadRequest(ex.Message);
-        }
+        return Ok(currentUser);
     }
 }

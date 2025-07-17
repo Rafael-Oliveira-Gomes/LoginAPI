@@ -2,7 +2,6 @@
 using Login.Domain.Entities;
 using Login.Domain.Interfaces.Repositories;
 using Login.Domain.Interfaces.Service;
-using Login.Repository.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
@@ -104,7 +103,7 @@ public class UserService : IUserService
 
     public async Task<SsoDTO> SignIn(SignInDTO signInDTO)
     {
-        var user = await _userManager.FindByNameAsync(signInDTO.Username);
+        var user = await _userManager.FindByEmailAsync(signInDTO.Email);
         if (user == null)
             throw new ArgumentException("Usuário não encontrado.");
 
@@ -115,9 +114,9 @@ public class UserService : IUserService
 
         var authClaims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.Name, user.UserName!),
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Email, user.Email!),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
             };
 
@@ -143,7 +142,7 @@ public class UserService : IUserService
     {
         var userId = _userManager.GetUserId(_httpContextAccessor.HttpContext.User); // Get user id:
 
-        ApplicationUser user = await _userRepository.GetUser(userId);
+        ApplicationUser user = await _userRepository.GetUser(userId!);
 
         return user;
     }
