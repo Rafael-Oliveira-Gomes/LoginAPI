@@ -1,122 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projetos\\Financas\\LoginAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|c:\\projetos\\financas\\loginapi\\login\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|solutionrelative:login\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|c:\\projetos\\financas\\loginapi\\login.domain\\dtos\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\dtos\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D420A511-F06B-4C17-AB15-EE1FC8CFE149}|Login.Application\\Login.Application.csproj|c:\\projetos\\financas\\loginapi\\login.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D420A511-F06B-4C17-AB15-EE1FC8CFE149}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|c:\\projetos\\financas\\loginapi\\login\\extensions\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|solutionrelative:login\\extensions\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|c:\\projetos\\financas\\loginapi\\login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|solutionrelative:login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|c:\\projetos\\financas\\loginapi\\login\\extensions\\corsconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|solutionrelative:login\\extensions\\corsconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login.Application\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "Login.Application\\Service\\UserService.cs",
-              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login.Application\\Service\\UserService.cs",
-              "RelativeToolTip": "Login.Application\\Service\\UserService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwJQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T19:20:09.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SignInDTO.cs",
-              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login.Domain\\DTOs\\SignInDTO.cs",
-              "RelativeDocumentMoniker": "Login.Domain\\DTOs\\SignInDTO.cs",
-              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login.Domain\\DTOs\\SignInDTO.cs",
-              "RelativeToolTip": "Login.Domain\\DTOs\\SignInDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T19:19:57.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CorsConfigurationExtensions.cs",
-              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Extensions\\CorsConfigurationExtensions.cs",
-              "RelativeDocumentMoniker": "Login\\Extensions\\CorsConfigurationExtensions.cs",
-              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Extensions\\CorsConfigurationExtensions.cs",
-              "RelativeToolTip": "Login\\Extensions\\CorsConfigurationExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T19:08:29.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JwtConfiguration.cs",
-              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Extensions\\JwtConfiguration.cs",
-              "RelativeDocumentMoniker": "Login\\Extensions\\JwtConfiguration.cs",
-              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Extensions\\JwtConfiguration.cs",
-              "RelativeToolTip": "Login\\Extensions\\JwtConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T18:54:51.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Login\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Login\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDAAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T18:53:09.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Program.cs",
-              "RelativeDocumentMoniker": "Login\\Program.cs",
-              "ToolTip": "C:\\Projetos\\Financas\\LoginAPI\\Login\\Program.cs",
-              "RelativeToolTip": "Login\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T18:35:26.165Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
