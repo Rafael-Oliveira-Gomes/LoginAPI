@@ -1,12 +1,360 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projetos\\Financas\\LoginAPI\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Projetos\\LoginAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|c:\\projetos\\loginapi\\login\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|solutionrelative:login\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D420A511-F06B-4C17-AB15-EE1FC8CFE149}|Login.Application\\Login.Application.csproj|c:\\projetos\\loginapi\\login.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D420A511-F06B-4C17-AB15-EE1FC8CFE149}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|c:\\projetos\\loginapi\\login.domain\\interfaces\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\interfaces\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|c:\\projetos\\loginapi\\login\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|solutionrelative:login\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|c:\\projetos\\loginapi\\login\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|solutionrelative:login\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|c:\\projetos\\loginapi\\login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|solutionrelative:login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D420A511-F06B-4C17-AB15-EE1FC8CFE149}|Login.Application\\Login.Application.csproj|c:\\projetos\\loginapi\\login.application\\addidentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D420A511-F06B-4C17-AB15-EE1FC8CFE149}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\addidentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D420A511-F06B-4C17-AB15-EE1FC8CFE149}|Login.Application\\Login.Application.csproj|c:\\projetos\\loginapi\\login.application\\addservicesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D420A511-F06B-4C17-AB15-EE1FC8CFE149}|Login.Application\\Login.Application.csproj|solutionrelative:login.application\\addservicesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|c:\\projetos\\loginapi\\login.repository\\context\\postgrescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|solutionrelative:login.repository\\context\\postgrescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|c:\\projetos\\loginapi\\login\\extensions\\swaggerconfigurations\\swaggerdefaltvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|solutionrelative:login\\extensions\\swaggerconfigurations\\swaggerdefaltvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|c:\\projetos\\loginapi\\login\\extensions\\swaggerconfigurations\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61490E01-CA05-43F1-B5A8-2788D26AE912}|Login\\Login.API.csproj|solutionrelative:login\\extensions\\swaggerconfigurations\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|c:\\projetos\\loginapi\\login.repository\\addrepositorysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|solutionrelative:login.repository\\addrepositorysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|c:\\projetos\\loginapi\\login.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939DB884-3EF2-4643-AB00-199ADE72390A}|Login.Repository\\Login.Repository.csproj|solutionrelative:login.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|c:\\projetos\\loginapi\\login.domain\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|c:\\projetos\\loginapi\\login.domain\\identity\\tokenjwtbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\identity\\tokenjwtbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|c:\\projetos\\loginapi\\login.domain\\identity\\tokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\identity\\tokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|c:\\projetos\\loginapi\\login.domain\\entities\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\entities\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|c:\\projetos\\loginapi\\login.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|c:\\projetos\\loginapi\\login.domain\\dtos\\ssodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\dtos\\ssodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|c:\\projetos\\loginapi\\login.domain\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|c:\\projetos\\loginapi\\login.domain\\dtos\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97F2F5B-B2F3-41A9-B130-BC9A4A9D1ED9}|Login.Domain\\Login.Domain.csproj|solutionrelative:login.domain\\dtos\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Login\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Login\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-21T03:43:32.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login\\appsettings.json",
+              "RelativeDocumentMoniker": "Login\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login\\appsettings.json",
+              "RelativeToolTip": "Login\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-20T02:52:11.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddServiceSetup.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Application\\AddServiceSetup.cs",
+              "RelativeDocumentMoniker": "Login.Application\\AddServiceSetup.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Application\\AddServiceSetup.cs",
+              "RelativeToolTip": "Login.Application\\AddServiceSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T02:40:58.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddIdentitySetup.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Application\\AddIdentitySetup.cs",
+              "RelativeDocumentMoniker": "Login.Application\\AddIdentitySetup.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Application\\AddIdentitySetup.cs",
+              "RelativeToolTip": "Login.Application\\AddIdentitySetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T02:38:40.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login\\Program.cs",
+              "RelativeDocumentMoniker": "Login\\Program.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login\\Program.cs",
+              "RelativeToolTip": "Login\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T02:37:07.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Login\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Login\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwD4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T02:25:43.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Application\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Login.Application\\Service\\UserService.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Application\\Service\\UserService.cs",
+              "RelativeToolTip": "Login.Application\\Service\\UserService.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAjwIwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:05:41.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Domain\\Interfaces\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\Interfaces\\Service\\IUserService.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Domain\\Interfaces\\Service\\IUserService.cs",
+              "RelativeToolTip": "Login.Domain\\Interfaces\\Service\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:04:29.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SwaggerDefaltValues.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login\\Extensions\\SwaggerConfigurations\\SwaggerDefaltValues.cs",
+              "RelativeDocumentMoniker": "Login\\Extensions\\SwaggerConfigurations\\SwaggerDefaltValues.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login\\Extensions\\SwaggerConfigurations\\SwaggerDefaltValues.cs",
+              "RelativeToolTip": "Login\\Extensions\\SwaggerConfigurations\\SwaggerDefaltValues.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T20:26:06.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SwaggerConfig.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login\\Extensions\\SwaggerConfigurations\\SwaggerConfig.cs",
+              "RelativeDocumentMoniker": "Login\\Extensions\\SwaggerConfigurations\\SwaggerConfig.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login\\Extensions\\SwaggerConfigurations\\SwaggerConfig.cs",
+              "RelativeToolTip": "Login\\Extensions\\SwaggerConfigurations\\SwaggerConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T20:25:56.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PostgresContext.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Repository\\Context\\PostgresContext.cs",
+              "RelativeDocumentMoniker": "Login.Repository\\Context\\PostgresContext.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Repository\\Context\\PostgresContext.cs",
+              "RelativeToolTip": "Login.Repository\\Context\\PostgresContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T17:42:53.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddRepositorySetup.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Repository\\AddRepositorySetup.cs",
+              "RelativeDocumentMoniker": "Login.Repository\\AddRepositorySetup.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Repository\\AddRepositorySetup.cs",
+              "RelativeToolTip": "Login.Repository\\AddRepositorySetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T19:00:54.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Repository\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Login.Repository\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Repository\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Login.Repository\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T17:47:16.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Domain\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Domain\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Login.Domain\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T17:28:31.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TokenJWTBuilder.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Domain\\Identity\\TokenJWTBuilder.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\Identity\\TokenJWTBuilder.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Domain\\Identity\\TokenJWTBuilder.cs",
+              "RelativeToolTip": "Login.Domain\\Identity\\TokenJWTBuilder.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T17:03:21.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TokenJWT.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Domain\\Identity\\TokenJWT.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\Identity\\TokenJWT.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Domain\\Identity\\TokenJWT.cs",
+              "RelativeToolTip": "Login.Domain\\Identity\\TokenJWT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T17:03:03.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "Login.Domain\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T17:01:03.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationRole.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Domain\\Entities\\ApplicationRole.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\Entities\\ApplicationRole.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Domain\\Entities\\ApplicationRole.cs",
+              "RelativeToolTip": "Login.Domain\\Entities\\ApplicationRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T17:01:01.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SsoDTO.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Domain\\DTOs\\SsoDTO.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\DTOs\\SsoDTO.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Domain\\DTOs\\SsoDTO.cs",
+              "RelativeToolTip": "Login.Domain\\DTOs\\SsoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T17:00:24.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SignUpDTO.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Domain\\DTOs\\SignUpDTO.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\DTOs\\SignUpDTO.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Domain\\DTOs\\SignUpDTO.cs",
+              "RelativeToolTip": "Login.Domain\\DTOs\\SignUpDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T16:59:41.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SignInDTO.cs",
+              "DocumentMoniker": "C:\\Projetos\\LoginAPI\\Login.Domain\\DTOs\\SignInDTO.cs",
+              "RelativeDocumentMoniker": "Login.Domain\\DTOs\\SignInDTO.cs",
+              "ToolTip": "C:\\Projetos\\LoginAPI\\Login.Domain\\DTOs\\SignInDTO.cs",
+              "RelativeToolTip": "Login.Domain\\DTOs\\SignInDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T16:58:31.746Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

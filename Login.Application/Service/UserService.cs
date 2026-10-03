@@ -140,7 +140,7 @@ public class UserService : IUserService
 
     public async Task<ApplicationUser> GetCurrentUser()
     {
-        var userId = _userManager.GetUserId(_httpContextAccessor.HttpContext.User); // Get user id:
+        var userId = _userManager.GetUserId(_httpContextAccessor.HttpContext.User);
 
         ApplicationUser user = await _userRepository.GetUser(userId!);
 
